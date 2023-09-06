@@ -2,20 +2,24 @@ table.t2 {
     border: 2px solid black;
 }
 
+
+  
 ul.t2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: silver;
+    background-color: rgba(244, 241, 241, 0.404);
 }
 
 li.t2 {
     float: left;
-
+    border-right:1px solid blue;
 }
 
-
+li:last-child {
+    border-right: none;
+}
 li a {
     display: block;
     color: blue;
@@ -24,10 +28,13 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: black;
+
+li.t2 a.active{
+    background-color: rgba(128, 128, 128, 0.402);
+    color: blue;
 }
 
-.active.t2 {
-    background-color: grey;
+li.t2 a:hover:not(.active) {
+    background-color: rgba(128, 128, 128, 0.402);
+    color: white;
 }
