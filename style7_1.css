@@ -17,12 +17,12 @@ li a {
     text-decoration: none;
 }
 
-li a.active {
+li.t1 a.active{
     background-color: orange;
     color: blue;
 }
 
-li a:hover:not(.active) {
-    background-color: #555;
+li.t1 a:hover:not(.active) {
+    background-color: orange;
     color: white;
 }
