@@ -1,0 +1,33 @@
+table.t2 {
+    border: 2px solid black;
+}
+
+ul.t2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+}
+
+li.t2 {
+    float: left;
+
+}
+
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active.t2 {
+    background-color: grey;
+}
